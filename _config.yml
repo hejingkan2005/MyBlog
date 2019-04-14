@@ -1,24 +1,34 @@
 # Blog config
 theme: jekyll-theme-minimal
-title: "Microsoft Docs"
-description: "MSDN Blog"
+title: "Duality Docs"
+description: "Developer manual for the Duality game engine"
 # google_analytics: UA-39997821-2
-repository: 'hejingkan2005/MyBlog'
+repository: 'AdamsLair/duality-docs'
 
 # Empty base URL for custom domain 'docs.duality2d.net' instead of 'adamslair.github.io/duality-docs'
 baseurl: ''
 
 # External links, to be displayed in the top
 links:
-  - title: 'Microsoft Docs'
-    url: 'https://docs.microsoft.com'
+  - title: 'Project'
+    url: 'https://www.duality2d.net'
+  - title: 'Forum'
+    url: 'https://forum.duality2d.net'
+  - title: 'Chat'
+    url: 'https://chat.duality2d.net'
 
 # Descriptions for the categories we have, used for top-level display
 categoryDescriptions:
-  - id: 'MyBlog'
-    title: 'Blog01'
+  - id: 'introduction'
+    title: 'Introduction'
   - id: 'tutorials'
     title: 'Tutorials'
+  - id: 'basics'
+    title: 'Basic Topics'
+  - id: 'advanced'
+    title: 'Advanced Topics'
+  - id: 'development'
+    title: 'Development'
 
 # Support for GitHub-flavored markdown Emoji
 plugins:
@@ -28,10 +38,10 @@ plugins:
 defaults:
   - scope: # Applies to all pages
       path: ""
-      type: "post"
+      type: "pages"
     values:
       # Which layout HTML to use
-      layout:
+      layout: "default"
       # The display title of the page
       title:
       # Parent page, as path without extension relative to the pages version root folder.
