@@ -1,7 +1,8 @@
 ---
 title: "Home"
 notoc: true
-layout: "default"
+redirectUrl: "post/Home.html"
+layout: "redirect"
 ---
 
 # Index page
