@@ -1,6 +1,6 @@
 ---
 title: "blog02"
-category: "Jan"
+category: "jan"
 displayOrder: 1
 version: "v1"
 ---

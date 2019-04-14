@@ -19,16 +19,10 @@ links:
 
 # Descriptions for the categories we have, used for top-level display
 categoryDescriptions:
-  - id: 'introduction'
-    title: 'Introduction'
-  - id: 'tutorials'
-    title: 'Tutorials'
-  - id: 'basics'
-    title: 'Basic Topics'
-  - id: 'advanced'
-    title: 'Advanced Topics'
-  - id: 'development'
-    title: 'Development'
+  - id: 'jan'
+    title: 'Jan'
+  - id: 'feb'
+    title: 'Feb'
 
 # Support for GitHub-flavored markdown Emoji
 plugins:
