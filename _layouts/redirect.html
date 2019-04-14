@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en" }}">
+<html lang="{{ site.lang | default: " en-US " }}">
   <head>
     {% include head.html %}
+    <meta http-equiv="refresh" content="0; url={{ page.redirectUrl }}">
+    <script type="text/javascript">
+        window.location.href = "{{ page.redirectUrl }}"
+    </script>
   </head>
   <body>
     {% include header.html %}
 
-    <a id="top"></a>
     <div class="page-body">
       <div class="wrapper">
           <div class="main-container">
