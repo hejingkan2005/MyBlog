@@ -32,7 +32,6 @@ categoryDescriptions:
 
 # Support for GitHub-flavored markdown Emoji
 plugins:
-  - jemoji
 
 # Default values for front matter variables
 defaults:
