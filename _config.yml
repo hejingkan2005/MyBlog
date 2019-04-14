@@ -31,7 +31,7 @@ defaults:
       type: "post"
     values:
       # Which layout HTML to use
-      layout: "_layouts\default"
+      layout: "default"
       # The display title of the page
       title:
       # Parent page, as path without extension relative to the pages version root folder.
