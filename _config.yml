@@ -1,0 +1,25 @@
+# Blog config
+theme: jekyll-theme-minimal
+title: "Duality Docs"
+description: "Developer manual for the Duality game engine"
+# google_analytics: UA-39997821-2
+repository: 'AdamsLair/duality-docs'
+
+# Empty base URL for custom domain 'docs.duality2d.net' instead of 'adamslair.github.io/duality-docs'
+baseurl: ''
+
+# External links, to be displayed in the top
+links:
+  - title: 'Project'
+    url: 'https://www.duality2d.net'
+  - title: 'Forum'
+    url: 'https://forum.duality2d.net'
+  - title: 'Chat'
+    url: 'https://chat.duality2d.net'
+
+# Descriptions for the categories we have, used for top-level display
+categoryDescriptions:
+  - id: 'Jan'
+    title: 'Jan'
+  - id: 'Feb'
+    title: 'Feb'
