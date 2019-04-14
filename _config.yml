@@ -28,7 +28,7 @@ plugins:
 defaults:
   - scope: # Applies to all pages
       path: ""
-      type: "pages"
+      type: "post"
     values:
       # Which layout HTML to use
       layout: "default"
