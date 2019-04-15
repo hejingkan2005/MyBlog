@@ -3,6 +3,7 @@ title: "Blog02"
 category: "jan"
 displayOrder: 0
 version: "v1"
+layout: default
 ---
 
 # Blog02
